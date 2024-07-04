@@ -6,6 +6,7 @@ from py_nillion_client import NodeKey, UserKey
 from dotenv import load_dotenv
 from nillion_python_helpers import get_quote_and_pay, create_nillion_client, create_payments_config
 
+
 from cosmpy.aerial.client import LedgerClient
 from cosmpy.aerial.wallet import LocalWallet
 
