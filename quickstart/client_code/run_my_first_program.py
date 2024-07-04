@@ -8,6 +8,7 @@ from nillion_python_helpers import get_quote_and_pay, create_nillion_client, cre
 
 from cosmpy.aerial.client import LedgerClient
 from cosmpy.aerial.wallet import LocalWallet
+
 from cosmpy.crypto.keypairs import PrivateKey
 
 home = os.getenv("HOME")
